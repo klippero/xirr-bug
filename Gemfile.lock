@@ -24,25 +24,10 @@ GEM
     connection_pool (2.4.1)
     date (3.3.4)
     drb (2.2.1)
-    gnucash (1.5.0)
-      nokogiri
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     minitest (5.23.1)
     mutex_m (0.2.0)
-    nokogiri (1.16.6-aarch64-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.6-arm-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.6-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.6-x86-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.6-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.6-x86_64-linux)
-      racc (~> 1.4)
-    racc (1.8.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
 
@@ -57,12 +42,8 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   date
-  gnucash
   minitest
   xirr (= 0.7.1)!
-
-RUBY VERSION
-   ruby 3.3.2p78
 
 BUNDLED WITH
    2.5.9
