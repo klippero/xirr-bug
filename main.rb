@@ -21,6 +21,6 @@ class Test < Minitest::Test
     cf << Xirr::Transaction.new(-4988.74,date:Date.strptime("29/01/2020","%d/%m/%Y"))
     cf << Xirr::Transaction.new( 4074.54,date:Date.strptime("24/03/2020","%d/%m/%Y"))
 
-    assert_equal( -73.90, (cf.xirr * 100).round(2))
+    assert_equal( -0.7390, cf.xirr.round(4))
   end
 end
